@@ -1,0 +1,32 @@
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family:"Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color:rgba(39, 37, 37, 0.815);
+}
+
+.pimg1, .pimg2, .pimg3{
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+ 
+  background-attachment:fixed;
+}
+.pimg1{
+  background-image: url('../img/city1.jpg');
+  min-height: 100%;
+}
+.pimg2{
+  background-image: url('../img/city2.jpg');
+  min-height: 400px;
+}
+.pimg3{
+  background-image: url('../img/city3.jpg');
+  min-height: 400px;
+}
