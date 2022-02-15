@@ -55,3 +55,15 @@ body, html{
   left: 50%;
   margin: -25px 0 0 -25px; 
 }
+
+section{
+  color: brown;
+  
+}
+section:hover{
+  transform: scale(.8); 
+  border-top-right-radius:0px;
+  
+  
+  
+}
